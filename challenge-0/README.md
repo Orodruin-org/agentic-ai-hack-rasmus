@@ -42,11 +42,11 @@ Now, time to deploy our resources to Azure!
 
 **Deployment Parameters:**
 - servicePrincipalObjectId: Leave this field empty.
-- resource group: Introduce the unique name for your resource group (defined above).
+- resource group: Introduce the unique name for your resource group (example: rg-user01-yourinitials).
 
 **NOTE:** Some parts of your deployment may fail if the resource provider `Microsoft.AlertsManagement` is not registered in your. Follow the [documentation](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/resource-providers-and-types#register-resource-provider-1) to register it and the re-run the deployment.
 
-Resource deployment can take up to 10 minutes, afterwards you'll be able to find most of the resources on your resource group. In the meantime, you can proceed with the next step - opening a pre-configured development environment in GitHub Codespaces.
+Resource deployment can take up to 10 minutes, afterwards you'll be able to find most of the resources on your resource group. 
 
 ## 1.4 Verify the creation of your resources
 
@@ -59,7 +59,7 @@ After deploying the resources, you will need to configure the environment variab
 
 **Then run the get-keys script with your resource group name:**
 ```bash
-./get-keys.sh --resource-group YOUR_RESOURCE_GROUP_NAME
+cd challenge-0 && ./get-keys.sh --resource-group YOUR_RESOURCE_GROUP_NAME
 ```
 
 Replace `YOUR_RESOURCE_GROUP_NAME` with the actual name of the resource group created on step 1.3.
