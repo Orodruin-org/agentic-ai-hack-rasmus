@@ -35,4 +35,4 @@ To successfully complete this hackathon, you will need the following:
 - Challenge 02: **[Build and Test Your First Agent](challenge-2/README.md)**: Create your first intelligent agent using Azure AI Agent Service to handle insurance claim processing workflows
 - Challenge 03: **[Agent Observability and Evaluation](challenge-3/README.md)**: Implement comprehensive observability and evaluation frameworks for your AI agents using Azure AI Foundry's evaluation capabilities
 - Challenge 04: **[Semantic Kernel + Azure AI Agent Service Agents](challenge-4/readme.md)**: Create specialized AI agents (Policy Checker, Claim Reviewer, Risk Analyser) using Semantic Kernel integration for enhanced capabilities
-- Challenge 05: **[Agent Orchestration](challenge-5/readme.md)** Coordinate multiple specialized agents to work together on complex tasks through various orchestration patterns with Azure Container Apps
+- Challenge 05: **[Agent Orchestration](challenge-5/README.md)** Coordinate multiple specialized agents to work together on complex tasks through various orchestration patterns with Azure Container Apps
