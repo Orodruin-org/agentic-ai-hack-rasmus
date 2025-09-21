@@ -136,7 +136,7 @@ Tell me about Liability Only Insurances
 
 ### Option 2 - Creating your Agent Backbone - Using the SDK
 
-So far, we have created the beggining of our agent using Azure AI Agent Service in the Portal. Now, **let's start coding!** Our Agent, as of now, is able to access our Azure AI Search, our Vector Database. This is, essentially, your first tool they can access.
+So far, we have created the beginning of our agent using Azure AI Agent Service in the Portal. Now, **let's start coding!** Our Agent, as of now, is able to access our Azure AI Search, our Vector Database. This is, essentially, your first tool they can access.
 
 Please jump over to the `policy_checker.ipynb` file to complete this guide. 
 

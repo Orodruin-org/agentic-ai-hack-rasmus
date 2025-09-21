@@ -76,7 +76,7 @@ Set up production monitoring:
 
 ### Part 1. **Evaluation Dataset Preparation**
 
-To start an evaluation for a lot of scenarios you will need a testing dataset. A lot of times, you want to make sure to include a breatdth of data on your testing dataset to be able to capture every nuance that might exist. For that, Microsoft has developed the [Simulator class](https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/develop/simulator-interaction-data) that enables synthetic data generation to address limited production data challenges. 
+To start an evaluation for a lot of scenarios you will need a testing dataset. A lot of times, you want to make sure to include a breadth of data on your testing dataset to be able to capture every nuance that might exist. For that, Microsoft has developed the [Simulator class](https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/develop/simulator-interaction-data) that enables synthetic data generation to address limited production data challenges. 
 
 The simulator creates query-response pairs from text sources, realistic conversation simulations, and adversarial datasets for safety testing. 
 

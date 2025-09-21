@@ -83,12 +83,12 @@ Response body (application/json):
    POLICY_CHECKER_AGENT_ID=""
    ```
 
-   2. Copy the .env file in root to the challenge-5-api directory 
+   2. Copy the .env file in root to the challenge-5 directory 
 
-   3. Move to challenge-5-api directory, create and activate a Python 3.11 virtual environment:
+   3. Move to challenge-5 directory, create and activate a Python 3.11 virtual environment:
 
    ```bash
-   cd challenge-5-api
+   cd challenge-5
    python3.11 -m venv .venv
    source .venv/bin/activate
    ```
@@ -115,7 +115,7 @@ Response body (application/json):
 
 ### Part 2.2 - Build and Run with Docker locally
 
-1. Build the Docker image (make sure you are still on the challenge-5-api directory):
+1. Build the Docker image (make sure you are still on the challenge-5 directory):
 
    ```bash
    docker build -t claim-manager:latest .
@@ -126,8 +126,9 @@ Response body (application/json):
    Create the Service Principal and assign role:
 
    ```bash
-   cd challenge-5-api && ./create-service-principal.sh
+   cd challenge-5 && ./create-service-principal.sh
    ```
+   If you run into any permission errors, first run `chmod +x challenge-5/create-service-principal.sh`
 
    Copy the outputed variables and paste them in your local `.env` file.
    Then, it's time to run the container with the necessary environment variables:
@@ -197,9 +198,9 @@ Create environment and container app using the pushed image and set the same env
 1. Create the Container App environment (replace the first 3 lines with the appropriate credentials). Don't worry, it should take about 10 minutes to run:
 
    ```bash
-   RESOURCE_GROUP="<your-resource-group>"
-   LOCATION="<your-location>"
-   ENV_NAME="<your-env-name>"
+   export RESOURCE_GROUP="<your-resource-group>"
+   export LOCATION="<your-location>"
+   export ENV_NAME="<your-env-name>"
    az containerapp env create --name $ENV_NAME --resource-group $RESOURCE_GROUP --location $LOCATION
    ```
 
