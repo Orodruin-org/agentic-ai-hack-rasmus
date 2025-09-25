@@ -206,3 +206,5 @@ processed_documents_for_vectorization.json
 processing_summary_gpt4o.json
 
 context.yaml
+
+local.settings.json
