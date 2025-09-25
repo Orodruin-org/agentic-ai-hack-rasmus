@@ -64,7 +64,7 @@ def run_simple_evaluation():
     parsed_endpoint = urlparse(project_endpoint)
     model_endpoint = f"{parsed_endpoint.scheme}://{parsed_endpoint.netloc}"
     deployment_name = "gpt-4.1-mini"
-    agent_name = "policy-checker"
+    agent_name = "Hack-a-Gent Policy Checker"
 
     # Initialize client
     credential = DefaultAzureCredential(exclude_interactive_browser_credential=False)
