@@ -1,0 +1,16 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "AI_FOUNDRY_PROJECT_ENDPOINT": "https://your-aifoundry-endpoint.services.ai.azure.com/api/projects/your-project",
+    "MODEL_DEPLOYMENT_NAME": "gpt-4o-mini",
+    "COSMOS_ENDPOINT": "https://your-cosmos-db.documents.azure.com:443/",
+    "COSMOS_KEY": "your-cosmos-db-primary-key",
+    "AZURE_OPENAI_ENDPOINT": "https://your-openai-resource.cognitiveservices.azure.com/",
+    "AZURE_OPENAI_KEY": "your-azure-openai-key",
+    "SEARCH_SERVICE_ENDPOINT": "https://your-search-service.search.windows.net/",
+    "SEARCH_ADMIN_KEY": "your-search-admin-key"
+  },
+  "ConnectionStrings": {},
+  "Host": {}
+}
